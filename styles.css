@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+*{box-sizing: border-box;
+margin: 0;
+padding: 0;
+scroll-behavior: smooth;}
+
+a{font-family: 'lato', sans-serif; 
+    color: inherit; 
+    text-decoration: none;}
+
+p{margin: 20px 0;}
+
+body{background-color: #fbfbfb;
+    font-family: 'lato', sans-serif;
+    font-size: 18px;
+    line-height: 1.2;}  
+
+header{background-color: #fbfbfb;
+    font-family: 'lato', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 3px 10px -5px #5f5f5f;
+    height: 90px;
+    padding: 16px;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;}
+    .logo{width: 120px;
+        padding: 3px;}
+    .navegador{font-size: 20px;  
+        display: flex;}
+        .menuitem{padding: 16px;
+            display: inline-block;}
+        .menuitem:hover{background-color: rgba(175, 89, 158, 0.8);}
+
+section{display: flex;
+    align-items: center;
+    justify-content: space-around;
+    min-height: 100vh;}
+        .botoncv {background-color: #af599e;
+            font-size: 20px;
+            color: white;
+            display: inline-block;
+            border-radius: 20px;
+            padding:10px}
+        article{width: 50%;}
+        .gatito{width: 400px;
+                border-radius: 80%;
+                margin: 50px;
+                float: left;
+                padding: 20px 0;}
+        .social{width: 150px;
+        padding: 20px;
+        margin: 30px;}
+        .social:hover{background-color: rgba(175, 89, 158, 0.3);
+        border-radius: 10px;}
+        .hablemos{background-color: rgba(175, 89, 158, 0.3);
+            text-align: center;
+            border-radius: 20px;
+            padding: 10px;}
+        #contacto{display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;}
+footer{background-color: #af599e;
+    height: 90px;
+     font-family: 'lato', sans-serif; color: #fbfbfb;
+     font-size: 16px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;}
